@@ -1,0 +1,27 @@
+{
+  "name": "cypress-automation-framework",
+  "version": "1.0.0",
+  "description": "Cucumber framework",
+  "main": "index.js",
+  "dependencies": {
+    "daemon": "^1.1.0",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "ts-loader": "^9.4.4"
+  },
+
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Namrata",
+  "license": "ISC"
+
+
+}
